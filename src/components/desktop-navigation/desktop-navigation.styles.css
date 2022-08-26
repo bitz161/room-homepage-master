@@ -1,0 +1,15 @@
+.desktop-navigation-container {
+  display: flex;
+  width: 30rem;
+  justify-content: space-evenly;
+  color: white;
+  position: absolute;
+  top: 60px;
+  left: 40px;
+}
+
+@media only screen and (max-width: 375px) {
+  .desktop-navigation-container {
+    display: none;
+  }
+}
